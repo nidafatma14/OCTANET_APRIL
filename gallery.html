@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+</head>
+<style>
+    *{
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+        background-color: bisque;
+    }
+    .container{
+        display:flex;
+        flex-direction: column;
+        justify-content:space-around;
+        align-items:center;
+        text-align: center;
+        margin:40px 20px 0 20px;
+    }
+    .container .heading{
+        width:50%;
+        padding-bottom:50px;
+    }
+    .container .heading h1{
+        font-size: 3em;
+        font-weight: bolder;
+        border-bottom: 3px solid black;
+    }
+    .container .heading h1 span{
+        font-weight: 100;
+    }
+    .container .box{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items:center;
+    }
+    .container .box .dream{
+        display: flex;
+        flex-direction: column;
+        width:32.5%;
+    }
+    .container .box .dream img{
+        width:100%;
+        padding-bottom: 15px;
+        padding-left:15px ;
+        border-radius: 20px;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="heading">
+            <h1>PHOTO <span>GALLERY</span></h1>
+        </div>
+        <div class="box">
+           <div class="dream">
+               <img src="./images/1.jpg">
+               <img src="./images/2.jpg">
+               <img src="./images/3.jpg">
+           </div>
+           <div class="dream">
+               <img src="./images/4.jpg">
+               <img src="./images/5.jpg">
+               <img src="./images/6.jpg">
+           </div>
+           <div class="dream">
+               <img src="./images/7.jpg">
+               <img src="./images/8.jpg">
+               <img src="./images/9.jpg">
+           </div>
+            <div class="dream">
+                <img src="./images/1.jpg">
+                <img src="./images/2.jpg">
+                <img src="./images/3.jpg">
+            </div>
+            <div class="dream">
+                <img src="./images/4.jpg">
+                <img src="./images/5.jpg">
+                <img src="./images/6.jpg">
+            </div>
+            <div class="dream">
+                <img src="./images/7.jpg">
+                <img src="./images/8.jpg">
+                <img src="./images/9.jpg">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

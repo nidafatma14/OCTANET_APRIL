@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+    content="width=device-width, 
+    initial-scale=1.0">
+    <title>Fashion Landing page</title>
+</head>
+<Style>
+    *{
+        margin:5px;
+        padding:5px;
+        background-color: black;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+    }
+    nav ul{
+        display:flex;
+        gap: 10px;
+    }
+    nav ul li{
+        list-style: none;
+    }
+    .contmain{
+        background-color: white;
+        height: 50px;
+        width:1450px;
+    }
+    .img1{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+    .container{
+        color: pink;
+        text-decoration: none;
+        border-radius: 5px;
+    }
+    .container:hover{
+        color: red;
+        transition-duration: all 5s ease-in-out;
+    }
+    h1{
+        margin-top: 150px;
+        display: block;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-size: 40px;
+        position: absolute;
+        top:150px;
+        left:150px;
+        color: white;
+    }
+    p{
+        font-size: 20px;
+        max-width: 400px;
+        color: white;
+        position:absolute;
+        top:400px;
+        left:170px;
+    }
+    input{
+        height:30px;
+        width:200px;
+        border-radius: 20px;
+        background-color: white;
+        color:red;
+    }
+    .img2{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        position: absolute;
+        top: 200px;
+        left: 1100px;
+        height: 300px;
+        width:200px;
+    }
+    .img3{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        position: absolute;
+        top: 400px;
+        left: 950px;
+        height: 300px;
+        width:200px;
+    }
+</Style>
+<body>
+<section>
+   <nav class="contmain">
+    <img class="img1" src="data:image/jpeg;base64,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"
+          alt="noimg">
+      <ul>
+        <li>
+            <a class="container" href="./login.html">
+                LOGIN
+            </a>
+        </li>
+        <li>
+            <a class="container" href="./gallery.html">
+                GALLERY
+            </a>
+        </li>
+        <li>
+            <a class="container">ABOUT</a>
+        </li>
+        <li>
+            <a class="container">PRICING</a>
+        </li>
+        <li>
+            <a class="container">FAQ</a>
+        </li>
+        <li>
+            <a href = "./joinus.html" class="container">JOINUS!</a>
+        </li>
+    </ul>
+   </nav>
+   <div>
+    <h1><u>Fashion with Confidence and Faith</u></h1>
+    <p>Shop now and save on chic, elegant pieces to build your new fall wardrobe.
+        Electrify your wardrobe with the smart, stylish, and elegant line collections from our Brand.
+        Get the look of a luxe wardrobe without paying top dollar.These clothes are stylish, elegant, and comfortable—perfect for the office or nights out.
+        <br><br>
+        <i>"BE MODEST, BE BEAUTIFUL!!"</i>
+    </p>
+    <form action="https://www.google.com/search" method="get">
+    <input type="text" placeholder="Seach" name="q">
+    </form>
+    <img class="img2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaCmut5CWUOiaqzt5MKtSJo7yQPSrGwnW8xTcBBkODoH0pZ7gw0oi1egFdP-lxvr2VqgE&usqp=CAU"
+    alt="no img">
+    <img class="img3" src="https://i.pinimg.com/originals/7f/91/49/7f9149911ea9e2afa65d0a43020310cb.jpg"
+    alt="noimg">
+   </div>
+</section>
+
+</body>
+</html>
